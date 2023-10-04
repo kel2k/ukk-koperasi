@@ -82,11 +82,11 @@
                                         <th>No</th>
                                         <th>Nama Anggota</th>
                                         <th>Alamat</th>
-                                        <th>Tanggal lahir</th>
+                                        <th>No Telpon</th>
                                         <th>Tempat Lahir</th>
+                                        <th>Tanggal lahir</th>
                                         <th>Jenis Kelamin</th>
                                         <th>Status</th>
-                                        <th>No Telpon</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
@@ -106,19 +106,20 @@
                                             <?php echo $k->alamat ?>
                                         </td>
                                         <td>
-                                            <?php echo $k->tgl_lahir ?>
+                                            <?php echo $k->no_tlp ?>
                                         </td>
                                         <td>
                                             <?php echo $k->tmp_lhr ?>
                                         </td>
                                         <td>
+                                            <?php echo $k->tgl_lahir ?>
+                                        </td>
+                                        <td>
                                             <?php echo $k->j_kel ?>
                                         </td>
+
                                         <td>
                                             <?php echo $k->status ?>
-                                        </td>
-                                        <td>
-                                            <?php echo $k->no_tlp ?>
                                         </td>
                                         <td>
                                             <a href="<?php echo base_url('/home/hapusanggota/' . $k->id_anggota_user) ?>"><button

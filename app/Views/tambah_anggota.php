@@ -52,7 +52,11 @@
                                 </div>
                                 <h5>Jenis Kelamin</h5>
                                 <div class="md-5 input-field">
-                                    <input type="text" class="form-control" value="" placeholder="Email" name="j_kel">
+                                    <select name="j_kel" class="form-control" required>
+                                        <option value="<?= $murid->jurusan ?>" selected hidden>---Choose---</option>
+                                        <option value="Laki-laki">Laki-laki</option>
+                                        <option value="Perempuan">Perempuan</option>
+                                    </select>
                                 </div>
                                 <!-- <h5>Status</h5>
                                 <div class="md-5 input-field">

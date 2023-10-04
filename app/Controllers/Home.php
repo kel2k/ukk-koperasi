@@ -151,7 +151,8 @@ class Home extends BaseController
             'username' => $username,
             'password' => md5('password'),
             'email' => $email,
-            'level' => '2'
+            'level' => '2',
+            'status' => 'Active'
         );
 
         $model = new M_model();
@@ -170,8 +171,7 @@ class Home extends BaseController
             'tgl_lahir' => $tgl_lahir,
             'tmp_lhr' => $tmp_lhr,
             'j_kel' => $j_kel,
-            'no_tlp' => $no_tlp,
-            'status' => 'Active'
+            'no_tlp' => $no_tlp
         );
         // print_r($user);
         // print_r($anggota);
@@ -254,7 +254,6 @@ class Home extends BaseController
         if (session()->get('level') == 1 || session()->get('level') == 2) {
             $model = new M_model();
             $on = 'petugas.id_petugas_user=user.id_user';
-            // $on1 = 'data_murid.lombaa=data_lomba.id_lomba';
             $data['vpetugas'] = $model->join2('petugas', 'user', $on);
             echo view('header');
             echo view('menuutama');
@@ -290,7 +289,8 @@ class Home extends BaseController
             'username' => $username,
             'password' => md5('password'),
             'email' => $email,
-            'level' => '3'
+            'level' => '3',
+            'status' => 'Active'
         );
 
         $model = new M_model();
@@ -309,7 +309,8 @@ class Home extends BaseController
             'tgl_lahir' => $tgl_lahir,
             'tmp_lahir' => $tmp_lahir,
             'j_kel' => $j_kel,
-            'no_tlp' => $no_tlp
+            'no_tlp' => $no_tlp,
+
         );
         // print_r($user);
         // print_r($petugas);
@@ -329,5 +330,61 @@ class Home extends BaseController
         $model->hapus('user', $where2);
 
         return redirect()->to(base_url('/home/petugas'));
+    }
+    public function editpetugas($id)
+    {
+        if (session()->get('level') == 1) {
+
+            $model = new M_model();
+            $on = 'petugas.id_petugas_user=user.id_user';
+            $where = array(
+                'id_petugas_user' => $id
+            );
+            $data['petugas'] = $model->joinW('petugas', 'user', $on, $where);
+            echo view('header');
+            echo view('menuutama');
+            echo view('editpetugas', $data);
+            echo view('footer');
+
+        } else {
+            return redirect()->to('/home/dashboard');
+        }
+    }
+    public function aksi_editpetugas()
+    {
+        $model = new M_model();
+        // $on='guru.user = user.id_user';
+        $id = $this->request->getPost('id');
+        $username = $this->request->getPost('username');
+        $password = $this->request->getPost('password');
+        $alamat = $this->request->getPost('alamat');
+        $tgl_lahir = $this->request->getPost('tgl_lahir');
+        $tmp_lahir = $this->request->getPost('tmp_lahir');
+        $email = $this->request->getPost('email');
+        $no_tlp = $this->request->getPost('no_tlp');
+        $level = $this->request->getPost('level');
+        $j_kel = $this->request->getPost('j_kel');
+
+        $where = array('id_user' => $id);
+        $data1 = array(
+            'username' => $username,
+            'email' => $email,
+            'password' => md5($password)
+        );
+        $model = new M_model();
+        $model->qedit('user', $data1, $where);
+        $where2 = array('id_petugas_user' => $id);
+        $data2 = array(
+            'nama' => $username,
+            'alamat' => $alamat,
+            'tgl_lahir' => $tgl_lahir,
+            'tmp_lahir' => $tmp_lahir,
+            'j_kel' => $j_kel,
+            'no_tlp' => $no_tlp
+        );
+        //    print_r($id);
+        // //  print_r($data2);
+        $model->qedit('petugas', $data2, $where2);
+        return redirect()->to('/home/petugas/');
     }
 }
