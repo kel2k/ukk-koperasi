@@ -1,0 +1,10 @@
+CRITICAL - 2023-10-02 20:25:49 --> Invalid file: v_user.php
+#0 E:\xampp\htdocs\mobil\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_user.php')
+#1 E:\xampp\htdocs\mobil\system\Common.php(1087): CodeIgniter\View\View->render('v_user', Array, true)
+#2 E:\xampp\htdocs\mobil\app\Controllers\Home.php(78): view('v_user', Array)
+#3 E:\xampp\htdocs\mobil\system\CodeIgniter.php(914): App\Controllers\Home->user()
+#4 E:\xampp\htdocs\mobil\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\mobil\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\mobil\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\mobil\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}

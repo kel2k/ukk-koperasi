@@ -1,0 +1,55 @@
+CRITICAL - 2023-08-21 09:22:35 --> Invalid file: menu.php
+#0 C:\xampp\htdocs\lomba\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 C:\xampp\htdocs\lomba\system\Common.php(1087): CodeIgniter\View\View->render('menu', Array, true)
+#2 C:\xampp\htdocs\lomba\app\Controllers\Home.php(73): view('menu')
+#3 C:\xampp\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->tambah_user()
+#4 C:\xampp\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-21 09:23:42 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\lomba\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\lomba\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\lomba\app\Controllers\Home.php(102): CodeIgniter\Model->__call('getarray', Array)
+#3 C:\xampp\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->aksi_tambahuser()
+#4 C:\xampp\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-08-21 09:25:40 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->aksi_tambahuser()
+#1 C:\xampp\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 09:25:49 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->aksi_tambahuser()
+#1 C:\xampp\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 09:26:17 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->aksi_tambahuser()
+#1 C:\xampp\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 20:31:24 --> Too few arguments to function App\Controllers\Home::deletemurid(), 0 passed in C:\xampp\htdocs\lomba\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->deletemurid()
+#1 C:\xampp\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-08-21 20:33:15 --> Too few arguments to function App\Controllers\Home::deletemurid(), 0 passed in C:\xampp\htdocs\lomba\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->deletemurid()
+#1 C:\xampp\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}

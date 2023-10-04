@@ -1,0 +1,71 @@
+CRITICAL - 2023-09-04 19:00:27 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp1\\htdoc...', 25, Array)
+#1 C:\xampp1\htdocs\lomba\app\Controllers\Home.php(25): file_get_contents('https://www.goo...')
+#2 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->aksi_login()
+#3 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp1\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp1\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp1\\htdoc...')
+#7 {main}
+CRITICAL - 2023-09-04 20:47:04 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp1\htdocs\lomba\app\Controllers\Home.php on line 74
+#0 C:\xampp1\htdocs\lomba\app\Controllers\Home.php(74): view('v_lomba', NULL)
+#1 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->lomba()
+#2 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp1\\htdoc...')
+#6 {main}
+CRITICAL - 2023-09-04 20:50:45 --> Call to a member function join2() on null
+#0 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->lomba()
+#1 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2023-09-04 20:51:09 --> Call to a member function join2() on null
+#0 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->lomba()
+#1 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2023-09-04 20:51:10 --> Call to a member function join2() on null
+#0 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->lomba()
+#1 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2023-09-04 20:51:23 --> Invalid argument supplied for foreach()
+#0 C:\xampp1\htdocs\lomba\app\Views\v_lomba.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp1\\htdoc...', 27, Array)
+#1 C:\xampp1\htdocs\lomba\system\View\View.php(246): include('C:\\xampp1\\htdoc...')
+#2 C:\xampp1\htdocs\lomba\system\Common.php(1087): CodeIgniter\View\View->render('v_lomba', Array, true)
+#3 C:\xampp1\htdocs\lomba\app\Controllers\Home.php(76): view('v_lomba')
+#4 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->lomba()
+#5 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp1\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp1\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp1\\htdoc...')
+#9 {main}
+CRITICAL - 2023-09-04 21:02:05 --> Too few arguments to function App\Controllers\Home::deleteguru(), 0 passed in C:\xampp1\htdocs\lomba\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->deleteguru()
+#1 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2023-09-04 21:02:47 --> Too few arguments to function App\Controllers\Home::deleteguru(), 0 passed in C:\xampp1\htdocs\lomba\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->deleteguru()
+#1 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp1\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp1\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp1\\htdoc...')
+#5 {main}
+CRITICAL - 2023-09-04 21:21:17 --> Too few arguments to function App\Models\M_model::join3(), 4 passed in C:\xampp1\htdocs\lomba\app\Controllers\Home.php on line 271 and exactly 5 expected
+#0 C:\xampp1\htdocs\lomba\app\Controllers\Home.php(271): App\Models\M_model->join3('data_pembimbing', 'user', 'level', 'data_pembimbing...')
+#1 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->guru()
+#2 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp1\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp1\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp1\\htdoc...')
+#6 {main}

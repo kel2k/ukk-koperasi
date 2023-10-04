@@ -1,0 +1,29 @@
+CRITICAL - 2023-08-22 00:44:12 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\lomba\app\Controllers\Home.php(25): file_get_contents('https://www.goo...')
+#2 C:\xampp\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->aksi_login()
+#3 C:\xampp\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-08-22 00:46:58 --> file_get_contents(): SSL: The operation completed successfully.
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\lomba\app\Controllers\Home.php(25): file_get_contents('https://www.goo...')
+#2 C:\xampp\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->aksi_login()
+#3 C:\xampp\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-08-22 23:46:20 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\lomba\system\Model.php(1206): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\lomba\system\Model.php(1714): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\lomba\app\Controllers\Home.php(127): CodeIgniter\Model->__call('join4', Array)
+#3 C:\xampp\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->murid()
+#4 C:\xampp\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}

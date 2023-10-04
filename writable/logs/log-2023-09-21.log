@@ -1,0 +1,13 @@
+CRITICAL - 2023-09-21 22:34:05 --> No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp1\htdocs\lomba\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp1\htdocs\lomba\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp1\htdocs\lomba\system\Database\BaseBuilder.php(2004): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp1\htdocs\lomba\app\Models\M_model.php(24): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#4 C:\xampp1\htdocs\lomba\app\Controllers\Home.php(52): App\Models\M_model->getWhere2('user', Array)
+#5 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(914): App\Controllers\Home->aksi_login()
+#6 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp1\htdocs\lomba\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp1\htdocs\lomba\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp1\htdocs\lomba\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp1\\htdoc...')
+#10 {main}

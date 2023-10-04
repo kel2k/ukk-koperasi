@@ -1,0 +1,21 @@
+CRITICAL - 2023-10-04 01:37:00 --> Too few arguments to function App\Controllers\Home::hapusanggota(), 0 passed in E:\xampp\htdocs\koperasi\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->hapusanggota()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-04 01:38:44 --> Too few arguments to function App\Controllers\Home::hapuspetugas(), 0 passed in E:\xampp\htdocs\koperasi\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->hapuspetugas()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-04 01:39:17 --> Too few arguments to function App\Controllers\Home::hapuspetugas(), 0 passed in E:\xampp\htdocs\koperasi\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->hapuspetugas()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
