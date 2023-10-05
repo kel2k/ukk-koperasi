@@ -353,7 +353,7 @@ class Home extends BaseController
     public function aksi_editpetugas()
     {
         $model = new M_model();
-        // $on='guru.user = user.id_user';
+        ;
         $id = $this->request->getPost('id');
         $username = $this->request->getPost('username');
         $password = $this->request->getPost('password');
@@ -386,5 +386,27 @@ class Home extends BaseController
         // //  print_r($data2);
         $model->qedit('petugas', $data2, $where2);
         return redirect()->to('/home/petugas/');
+    }
+    public function aksi_editstatus1($id)
+    {
+        $model = new M_model();
+        $where = array('id_user' => $id);
+        $data1 = array(
+            'status' => 'Active'
+        );
+        $model = new M_model();
+        $model->qedit('user', $data1, $where);
+        return redirect()->to('/home/anggota/');
+    }
+    public function aksi_editstatus2($id)
+    {
+        $model = new M_model();
+        $where = array('id_user' => $id);
+        $data1 = array(
+            'status' => 'Inactive'
+        );
+        $model = new M_model();
+        $model->qedit('user', $data1, $where);
+        return redirect()->to('/home/anggota/');
     }
 }
