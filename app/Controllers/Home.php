@@ -409,4 +409,14 @@ class Home extends BaseController
         $model->qedit('user', $data1, $where);
         return redirect()->to('/home/anggota/');
     }
+    public function pinjaman()
+    {
+        $model = new M_model();
+        $on = 'pinjaman.id_anggota_user=user.id_user';
+        $data['vpinjaman'] = $model->join2('pinjaman', 'user', $on);
+        echo view('header');
+        echo view('menuutama');
+        echo view('pinjaman', $data);
+        echo view('footer');
+    }
 }

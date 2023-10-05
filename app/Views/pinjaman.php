@@ -82,9 +82,9 @@
                     <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center mb-3">
                             <h4 class="card-title">Tabel Petugas</h4>
-                            <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom"
-                                title="Click to add data" onclick="window.location.href='/home/tambahpetugas'"><i
-                                    class="fas fa-plus"></i> Add Data</button>
+                            <!-- <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" -->
+                            <!-- title="Click to add data" onclick="window.location.href='/home/tambahpetugas'"><i -->
+                            <!-- class="fas fa-plus"></i> Add Data</button> -->
                         </div>
 
                         <!-- Add the search input field here -->
@@ -97,45 +97,33 @@
                                 <thead>
                                     <tr>
                                         <th>No</th>
-                                        <th>Nama Petugas</th>
-                                        <th>Alamat</th>
-                                        <th>Nomor Telpon</th>
-                                        <th>Tempat Lahir</th>
-                                        <th>Tanggal Lahir</th>
-                                        <th>Jenis Kelamin</th>
-                                        <th>Status</th>
+                                        <th>Nama Peminjam</th>
+                                        <th>Besar Pinjaman</th>
+                                        <th>Tanggal Pinjaman</th>
+                                        <th>Tanggal Pelunasan</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
 
                                 <?php
                                 $no = 1;
-                                foreach ($vpetugas as $k) {
+                                foreach ($vpinjaman as $k) {
                                     ?>
                                     <tr>
                                         <td>
                                             <?php echo $no++ ?>
                                         </td>
                                         <td>
-                                            <?php echo $k->nama ?>
+                                            <?php echo $k->nama_pinjaman ?>
                                         </td>
                                         <td>
-                                            <?php echo $k->alamat ?>
+                                            <?php echo $k->besar_pinjaman ?>
                                         </td>
                                         <td>
-                                            <?php echo $k->no_tlp ?>
+                                            <?php echo $k->tgl_pinjaman ?>
                                         </td>
                                         <td>
-                                            <?php echo $k->tmp_lahir ?>
-                                        </td>
-                                        <td>
-                                            <?php echo $k->tgl_lahir ?>
-                                        </td>
-                                        <td>
-                                            <?php echo $k->j_kel ?>
-                                        </td>
-                                        <td>
-                                            <?php echo $k->status ?>
+                                            <?php echo $k->tgl_pelunasan ?>
                                         </td>
                                         <td>
                                             <a href="<?= base_url('/home/hapuspetugas/' . $k->id_petugas_user) ?>"><button
