@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabel Petugas</title>
+    <title>Tabel Pinjaman</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
         integrity="sha512-+J+gkzvzJz+6zvJ5xZvzJZJzJZJzJZJzJZJZJZJzJZJzJZJzJZJZJZJZJZJzJZJzJZJzJZJzJZJzJZJzJZQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -81,10 +81,10 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="d-flex justify-content-between align-items-center mb-3">
-                            <h4 class="card-title">Tabel Petugas</h4>
-                            <!-- <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom" -->
-                            <!-- title="Click to add data" onclick="window.location.href='/home/tambahpetugas'"><i -->
-                            <!-- class="fas fa-plus"></i> Add Data</button> -->
+                            <h4 class="card-title">Tabel Pinjaman</h4>
+                            <button class="btn btn-primary" data-toggle="tooltip" data-placement="bottom"
+                                title="Click to add data" onclick="window.location.href='/home/tambahpinjaman'"><i
+                                    class="fas fa-plus"></i> Add Pinjaman</button>
                         </div>
 
                         <!-- Add the search input field here -->
@@ -114,7 +114,7 @@
                                             <?php echo $no++ ?>
                                         </td>
                                         <td>
-                                            <?php echo $k->nama_pinjaman ?>
+                                            <?php echo $k->username ?>
                                         </td>
                                         <td>
                                             <?php echo $k->besar_pinjaman ?>
@@ -127,7 +127,7 @@
                                         </td>
                                         <td>
                                             <a href="<?= base_url('/home/hapuspetugas/' . $k->id_petugas_user) ?>"><button
-                                                    class="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    class="btn btn-warning"><svg xmlns="http://www.w3.org/2000/svg"
                                                         width="16" height="16" fill="currentColor" class="bi bi-trash3"
                                                         viewBox="0 0 16 16">
                                                         <path
@@ -146,7 +146,7 @@
                                                 ?>
 
                                                 <a href="<?php echo base_url('/home/aksi_editstatus2/' . $k->id_user) ?>">
-                                                    <button class="btn btn-dark"><i width="16" height="16"
+                                                    <button class="btn btn-danger"><i width="16" height="16"
                                                             class="fa fa-window-close"></i>
                                                     </button></a>
 

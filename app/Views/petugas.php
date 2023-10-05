@@ -139,7 +139,7 @@
                                         </td>
                                         <td>
                                             <a href="<?= base_url('/home/hapuspetugas/' . $k->id_petugas_user) ?>"><button
-                                                    class="btn btn-danger"><svg xmlns="http://www.w3.org/2000/svg"
+                                                    class="btn btn-warning"><svg xmlns="http://www.w3.org/2000/svg"
                                                         width="16" height="16" fill="currentColor" class="bi bi-trash3"
                                                         viewBox="0 0 16 16">
                                                         <path
@@ -158,7 +158,7 @@
                                                 ?>
 
                                                 <a href="<?php echo base_url('/home/aksi_editstatus2/' . $k->id_user) ?>">
-                                                    <button class="btn btn-dark"><i width="16" height="16"
+                                                    <button class="btn btn-danger"><i width="16" height="16"
                                                             class="fa fa-window-close"></i>
                                                     </button></a>
 

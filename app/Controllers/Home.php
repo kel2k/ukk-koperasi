@@ -412,11 +412,44 @@ class Home extends BaseController
     public function pinjaman()
     {
         $model = new M_model();
-        $on = 'pinjaman.id_anggota_user=user.id_user';
+        $on = 'pinjaman.id_anggota_pinjaman=user.id_user';
         $data['vpinjaman'] = $model->join2('pinjaman', 'user', $on);
         echo view('header');
         echo view('menuutama');
         echo view('pinjaman', $data);
         echo view('footer');
+    }
+    public function tambahpinjaman()
+    {
+        $model = new M_model();
+
+        $data['pinjaman'] = $model->tampil('pinjaman');
+        echo view('header');
+        echo view('menuutama');
+        echo view('tambah_pinjam', $data);
+        echo view('footer');
+    }
+    public function aksi_tambahpinjaman()
+    {
+        $model = new M_model();
+
+        // Mengambil username dari Session
+        $session = session();
+        $username = $session->get('username');
+
+        $besar_pinjaman = $this->request->getPost('besar_pinjaman');
+        $where = array('username' => $username);
+        $id = $model->getWhere2('user', $where);
+        $id_user = $id['id_user'];
+
+        $pinjaman = array(
+            'id_anggota_pinjaman' => $id_user,
+            'username' => $username,
+            // Kolom username akan terisi otomatis sesuai dengan pengguna yang sudah login.
+            'besar_pinjaman' => $besar_pinjaman
+        );
+
+        $model->simpan('pinjaman', $pinjaman);
+        return redirect()->to('/home/pinjaman');
     }
 }

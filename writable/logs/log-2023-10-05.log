@@ -42,3 +42,106 @@ CRITICAL - 2023-10-05 06:02:56 --> Invalid argument supplied for foreach()
 #7 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #8 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
 #9 {main}
+CRITICAL - 2023-10-05 06:19:21 --> Invalid file: tambah_pinjaman.php
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambah_pinjaman...')
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('tambah_pinjaman', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(429): view('tambah_pinjaman', Array)
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->tambahpinjaman()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 06:19:32 --> Call to a member function userdata() on null
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(246): include()
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('tambah_pinjam', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(429): view('tambah_pinjam', Array)
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->tambahpinjaman()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 06:19:44 --> Call to a member function user() on null
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(246): include()
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('tambah_pinjam', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(429): view('tambah_pinjam', Array)
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->tambahpinjaman()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 06:19:45 --> Call to a member function user() on null
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(246): include()
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('tambah_pinjam', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(429): view('tambah_pinjam', Array)
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->tambahpinjaman()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-05 06:25:09 --> Call to a member function userdata() on null
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->tambahpinjaman()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 06:26:01 --> Call to a member function user() on null
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->tambahpinjaman()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 06:26:02 --> Call to a member function user() on null
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->tambahpinjaman()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 06:27:21 --> Cannot call constructor
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(886): App\Controllers\Home->__construct()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 06:27:21 --> Cannot call constructor
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(886): App\Controllers\Home->__construct()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 06:27:22 --> Cannot call constructor
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(886): App\Controllers\Home->__construct()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 06:28:07 --> Cannot call constructor
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(886): App\Controllers\Home->__construct()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 06:28:07 --> Cannot call constructor
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(886): App\Controllers\Home->__construct()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 06:36:58 --> Too few arguments to function App\Controllers\Home::hapuspetugas(), 0 passed in E:\xampp\htdocs\koperasi\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->hapuspetugas()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
