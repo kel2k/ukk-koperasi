@@ -41,6 +41,7 @@
                                     <a href="<?= base_url('/home/anggota') ?>"><button type="button"
                                             class="ms-3 btn btn-warning">Back</button></a>
                                 </div>
+<<<<<<< HEAD
                             </form>
                             <script>
                                 // Mendapatkan elemen input untuk "Besar Pinjaman"
@@ -64,6 +65,11 @@
                                     }
                                 });
                             </script>
+=======
+                                <button type="submit" class="btn btn-success">Submit</button>
+                                <a href="<?= base_url('/home/anggota') ?>"><button type="button"
+                                        class="ms-3 btn btn-warning">Back</button></a>
+>>>>>>> 56eb82034071a5f9ddcc201de7f66271ea443142
                         </div>
                     </div>
                 </div>

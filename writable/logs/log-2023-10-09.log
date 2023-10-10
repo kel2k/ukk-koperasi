@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 CRITICAL - 2023-10-09 02:17:07 --> Invalid file: dashboard.php
 #0 E:\xampp7.4\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
 #1 E:\xampp7.4\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
@@ -249,3 +250,25 @@ CRITICAL - 2023-10-09 09:30:37 --> syntax error, unexpected '<'
 #5 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #6 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
 #7 {main}
+=======
+CRITICAL - 2023-10-09 02:16:15 --> Invalid file: dashboard.php
+#0 E:\xamppp\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 E:\xamppp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 E:\xamppp\htdocs\koperasi\app\Controllers\Home.php(43): view('dashboard')
+#3 E:\xamppp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->dashboard()
+#4 E:\xamppp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xamppp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xamppp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xamppp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xamppp\\htdoc...')
+#8 {main}
+CRITICAL - 2023-10-09 06:16:07 --> Invalid file: dashboard.php
+#0 E:\xamppp\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 E:\xamppp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 E:\xamppp\htdocs\koperasi\app\Controllers\Home.php(43): view('dashboard')
+#3 E:\xamppp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->dashboard()
+#4 E:\xamppp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xamppp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xamppp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xamppp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xamppp\\htdoc...')
+#8 {main}
+>>>>>>> 56eb82034071a5f9ddcc201de7f66271ea443142
