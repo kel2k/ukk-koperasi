@@ -1,0 +1,251 @@
+CRITICAL - 2023-10-09 02:17:07 --> Invalid file: dashboard.php
+#0 E:\xampp7.4\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 E:\xampp7.4\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 E:\xampp7.4\htdocs\koperasi\app\Controllers\Home.php(43): view('dashboard')
+#3 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->dashboard()
+#4 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp7.4\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp7.4\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp7.4\\htd...')
+#8 {main}
+CRITICAL - 2023-10-09 02:17:15 --> Invalid file: dashboard.php
+#0 E:\xampp7.4\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 E:\xampp7.4\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 E:\xampp7.4\htdocs\koperasi\app\Controllers\Home.php(43): view('dashboard')
+#3 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->dashboard()
+#4 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp7.4\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp7.4\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp7.4\\htd...')
+#8 {main}
+CRITICAL - 2023-10-09 02:24:48 --> Invalid file: dashboards.php
+#0 E:\xampp7.4\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboards.php')
+#1 E:\xampp7.4\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('dashboards', Array, true)
+#2 E:\xampp7.4\htdocs\koperasi\app\Controllers\Home.php(43): view('dashboards')
+#3 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->dashboard()
+#4 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp7.4\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp7.4\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp7.4\\htd...')
+#8 {main}
+CRITICAL - 2023-10-09 02:55:46 --> No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp7.4\htdocs\koperasi\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp7.4\htdocs\koperasi\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp7.4\htdocs\koperasi\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp7.4\htdocs\koperasi\app\Models\M_model.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp7.4\htdocs\koperasi\app\Controllers\Home.php(257): App\Models\M_model->join2('petugas', 'user', 'petugas.id_petu...')
+#5 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->petugas()
+#6 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp7.4\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp7.4\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp7.4\\htd...')
+#10 {main}
+CRITICAL - 2023-10-09 02:55:48 --> No connection could be made because the target machine actively refused it.
+
+#0 E:\xampp7.4\htdocs\koperasi\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xampp7.4\htdocs\koperasi\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xampp7.4\htdocs\koperasi\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 E:\xampp7.4\htdocs\koperasi\app\Models\M_model.php(32): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\xampp7.4\htdocs\koperasi\app\Controllers\Home.php(416): App\Models\M_model->join2('pinjaman', 'user', 'pinjaman.id_ang...')
+#5 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->pinjaman()
+#6 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xampp7.4\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xampp7.4\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp7.4\\htd...')
+#10 {main}
+CRITICAL - 2023-10-09 04:55:59 --> Too few arguments to function App\Controllers\Home::hapuspetugas(), 0 passed in E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->hapuspetugas()
+#1 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp7.4\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp7.4\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp7.4\\htd...')
+#5 {main}
+CRITICAL - 2023-10-09 04:57:27 --> Too few arguments to function App\Controllers\Home::hapuspinjaman(), 0 passed in E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->hapuspinjaman()
+#1 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp7.4\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp7.4\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp7.4\\htd...')
+#5 {main}
+CRITICAL - 2023-10-09 05:11:27 --> Invalid argument supplied for foreach()
+#0 E:\xampp7.4\htdocs\koperasi\app\Views\angsuran.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\xampp7.4\\htd...', 93, Array)
+#1 E:\xampp7.4\htdocs\koperasi\system\View\View.php(246): include('E:\\xampp7.4\\htd...')
+#2 E:\xampp7.4\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('angsuran', Array, true)
+#3 E:\xampp7.4\htdocs\koperasi\app\Controllers\Home.php(498): view('angsuran', Array)
+#4 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->angsuran()
+#5 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp7.4\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp7.4\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp7.4\\htd...')
+#9 {main}
+CRITICAL - 2023-10-09 05:54:04 --> Too few arguments to function App\Controllers\Home::hapusanggota(), 0 passed in E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->hapusanggota()
+#1 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp7.4\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp7.4\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp7.4\\htd...')
+#5 {main}
+CRITICAL - 2023-10-09 05:54:11 --> Too few arguments to function App\Controllers\Home::hapusanggota(), 0 passed in E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->hapusanggota()
+#1 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp7.4\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp7.4\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp7.4\\htd...')
+#5 {main}
+CRITICAL - 2023-10-09 05:54:13 --> Too few arguments to function App\Controllers\Home::hapusangsuran(), 0 passed in E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->hapusangsuran()
+#1 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp7.4\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp7.4\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp7.4\\htd...')
+#5 {main}
+CRITICAL - 2023-10-09 06:36:23 --> Too few arguments to function App\Controllers\Home::hapusangsuran(), 0 passed in E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->hapusangsuran()
+#1 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp7.4\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp7.4\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp7.4\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp7.4\\htd...')
+#5 {main}
+CRITICAL - 2023-10-09 07:40:46 --> Class 'App\Controllers\Dompdf' not found
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_pdf()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-09 07:41:10 --> Invalid file: data_absensi/print_pdf_view.php
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi/pr...')
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('data_absensi/pr...', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(637): view('data_absensi/pr...', Array)
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_pdf()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 07:41:26 --> Invalid file: data_absensi/pdfpinjaman.php
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi/pd...')
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('data_absensi/pd...', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(637): view('data_absensi/pd...', Array)
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_pdf()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 07:41:27 --> Invalid file: data_absensi/pdfpinjaman.php
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi/pd...')
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('data_absensi/pd...', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(637): view('data_absensi/pd...', Array)
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_pdf()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 07:41:27 --> Invalid file: data_absensi/pdfpinjaman.php
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi/pd...')
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('data_absensi/pd...', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(637): view('data_absensi/pd...', Array)
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_pdf()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 07:41:27 --> Invalid file: data_absensi/pdfpinjaman.php
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi/pd...')
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('data_absensi/pd...', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(637): view('data_absensi/pd...', Array)
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_pdf()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 07:41:27 --> Invalid file: data_absensi/pdfpinjaman.php
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi/pd...')
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('data_absensi/pd...', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(637): view('data_absensi/pd...', Array)
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_pdf()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 07:41:27 --> Invalid file: data_absensi/pdfpinjaman.php
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('data_absensi/pd...')
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('data_absensi/pd...', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(637): view('data_absensi/pd...', Array)
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_pdf()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 07:41:37 --> Invalid file: pinjaman/pdfpinjaman.php
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pinjaman/pdfpin...')
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('pinjaman/pdfpin...', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(637): view('pinjaman/pdfpin...', Array)
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_pdf()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2023-10-09 07:41:48 --> Use of undefined constant Rp - assumed 'Rp' (this will throw an Error in a future version of PHP)
+#0 E:\xampp\htdocs\koperasi\app\Views\pdfpinjaman.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\xampp\\htdocs...', 86, Array)
+#1 E:\xampp\htdocs\koperasi\system\View\View.php(246): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('pdfpinjaman', Array, true)
+#3 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(637): view('pdfpinjaman', Array)
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_pdf()
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-10-09 08:23:07 --> Class 'App\Controllers\Spreadsheet' not found
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_excel()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-09 08:38:22 --> Invalid argument supplied for foreach()
+#0 E:\xampp\htdocs\koperasi\app\Views\pdfangsuran.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\xampp\\htdocs...', 64, Array)
+#1 E:\xampp\htdocs\koperasi\system\View\View.php(246): include('E:\\xampp\\htdocs...')
+#2 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('pdfangsuran', Array, true)
+#3 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(656): view('pdfangsuran', Array)
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_pdf2()
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2023-10-09 09:04:42 --> Invalid argument supplied for foreach()
+#0 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(852): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'E:\\xampp\\htdocs...', 852, Array)
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->export_excel3()
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2023-10-09 09:28:54 --> syntax error, unexpected end of file
+#0 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('pinjaman', Array, true)
+#1 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(424): view('pinjaman', Array)
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->pinjaman()
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-10-09 09:30:37 --> syntax error, unexpected '<'
+#0 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('pinjaman', Array, true)
+#1 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(424): view('pinjaman', Array)
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->pinjaman()
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#7 {main}

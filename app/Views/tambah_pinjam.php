@@ -30,38 +30,44 @@
                                         <input type="text" class="form-control" id="besar_pinjaman"
                                             name="besar_pinjaman" placeholder="Masukkan besar pinjaman">
                                     </div>
+                                    <div class="mb-3">
+                                        <label for="besar_pinjaman">Tanggal Pelunasan</label>
+                                        <div class="input-group">
+                                            <input type="date" class="form-control" id="tgl_pelunasan"
+                                                name="tgl_pelunasan" placeholder="">
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-success">Submit</button>
+                                    <a href="<?= base_url('/home/anggota') ?>"><button type="button"
+                                            class="ms-3 btn btn-warning">Back</button></a>
                                 </div>
-                                <button type="submit" class="btn btn-success">Register</button>
-                                <a href="<?= base_url('/home/anggota') ?>"><button type="button"
-                                        class="ms-3 btn btn-warning">Back</button></a>
+                            </form>
+                            <script>
+                                // Mendapatkan elemen input untuk "Besar Pinjaman"
+                                var inputBesarPinjaman = document.getElementById('besar_pinjaman');
+
+                                // Menambahkan event listener untuk mengubah nilai input
+                                inputBesarPinjaman.addEventListener('input', function () {
+                                    // Mengambil nilai input
+                                    var inputValue = inputBesarPinjaman.value;
+
+                                    // Menghapus karakter "Rp.", spasi ribuan, dan tanda titik desimal jika ada
+                                    inputValue = inputValue.replace(/[Rp.,\s]/g, '');
+
+                                    // Mengonversi nilai menjadi angka
+                                    var numericValue = parseFloat(inputValue);
+
+                                    // Mengecek apakah nilai adalah angka yang valid
+                                    if (!isNaN(numericValue)) {
+                                        // Format nilai dengan "Rp." dan tampilkan di input
+                                        inputBesarPinjaman.value = 'Rp. ' + numericValue.toLocaleString('en-US');
+                                    }
+                                });
+                            </script>
                         </div>
-                        </form>
-                        <script>
-                            // Mendapatkan elemen input untuk "Besar Pinjaman"
-                            var inputBesarPinjaman = document.getElementById('besar_pinjaman');
-
-                            // Menambahkan event listener untuk mengubah nilai input
-                            inputBesarPinjaman.addEventListener('input', function () {
-                                // Mengambil nilai input
-                                var inputValue = inputBesarPinjaman.value;
-
-                                // Menghapus karakter "Rp.", spasi ribuan, dan tanda titik desimal jika ada
-                                inputValue = inputValue.replace(/[Rp.,\s]/g, '');
-
-                                // Mengonversi nilai menjadi angka
-                                var numericValue = parseFloat(inputValue);
-
-                                // Mengecek apakah nilai adalah angka yang valid
-                                if (!isNaN(numericValue)) {
-                                    // Format nilai dengan "Rp." dan tampilkan di input
-                                    inputBesarPinjaman.value = 'Rp. ' + numericValue.toLocaleString('en-US');
-                                }
-                            });
-                        </script>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>

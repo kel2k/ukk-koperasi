@@ -145,3 +145,36 @@ CRITICAL - 2023-10-05 06:36:58 --> Too few arguments to function App\Controllers
 #3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
 #5 {main}
+CRITICAL - 2023-10-05 10:55:16 --> Too few arguments to function App\Controllers\Home::hapuspetugas(), 0 passed in E:\xampp\htdocs\koperasi\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->hapuspetugas()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 10:56:05 --> Too few arguments to function App\Controllers\Home::editpetugas(), 0 passed in E:\xampp\htdocs\koperasi\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->editpetugas()
+#1 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2023-10-05 22:43:44 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'E:\\xampp\\htdocs...', 65, Array)
+#1 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(65): file_get_contents('https://www.goo...')
+#2 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->aksi_login()
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2023-10-05 23:12:10 --> Invalid file: dashboard.php
+#0 E:\xampp\htdocs\koperasi\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard.php')
+#1 E:\xampp\htdocs\koperasi\system\Common.php(1087): CodeIgniter\View\View->render('dashboard', Array, true)
+#2 E:\xampp\htdocs\koperasi\app\Controllers\Home.php(43): view('dashboard')
+#3 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(914): App\Controllers\Home->dashboard()
+#4 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\xampp\htdocs\koperasi\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xampp\htdocs\koperasi\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xampp\htdocs\koperasi\system\Commands\Server\rewrite.php(34): require_once('E:\\xampp\\htdocs...')
+#8 {main}
